@@ -1,0 +1,1 @@
+# ssb-373-strict-projet
