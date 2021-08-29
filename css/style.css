@@ -1,0 +1,375 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* google font css start */
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* css google font colse */
+
+
+
+/* header part css start */
+.navbar-light .navbar-nav .nav-link {
+    color: #2d3950;
+    font-weight: 500;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    background-color: #f6f9f9;
+}
+/* header part css close */
+
+
+
+/* banner section css start */
+.banner_section{
+    background-image: url(../images/banner.png);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    
+ }
+ .banner_section h1{
+     color: #fff;
+     text-transform: uppercase;
+     font-size: 90px;
+
+ }
+ .banner_section span{
+     display: block;
+     height: 2px;
+     width: 100%;
+     background: #15a4fa;
+
+ }
+ .banner_section p{
+  margin: 0;
+  margin: 30px 0;
+  color: #fff;
+  font-size: 20;
+ }
+ .btn-action{
+     border: none;
+     color: #fff;
+     background: transparent;
+     padding: 0;
+     padding: 10px 30px;
+     border: 1px solid #15a4fa;
+     text-transform: capitalize;
+     transition: 0.5s all ease-in-out;
+     
+
+
+ }
+ .btn-action:hover{
+     background-color:#15a4fa ;
+     color: #fff;
+ }
+
+ .hg{
+    min-height: 90vh;
+ } 
+
+ .icon{
+     color: #fff;
+     font-size: 20px;
+     position: absolute;
+     top: 80%;
+     left: 50%;
+     transform: translateX(-50%);
+     animation: updown 1s linear infinite;
+     animation-direction: alternate;
+ }
+
+ @keyframes updown {
+     0%{
+        top: 80%;
+
+     }
+     100%{
+        top: 75%;
+     }
+
+
+ }
+ /* banner section css close */
+
+
+ /* text section css strat */
+ .text_section{
+ background-color: #f6f9f9;
+ }
+ .text_section h1{
+ font-size: 36px;
+ color: #2d3950;
+ font-weight: 400;
+ 
+ }
+ .text_section p{
+     color:#999;
+     margin: 0;
+     margin: 20px 0;
+
+ }
+  /* text section css strat */
+
+
+/* feature section css start */
+  .feature {
+
+  }
+  .feature{
+
+  }
+  .feature  h3{
+      color: #2d3950;
+      font-size: 25px;
+      font-weight: 500;
+      margin-top: 30px;
+
+  }
+  .feature p{
+      color: #999999;
+      font-size:20px;
+
+  }
+  .icon_box {
+      height: 80px;
+      width: 80px;
+      margin: auto;
+      font-size: 40px;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+50,5fc3ff+50 */
+    background: #48baff; /* Old browsers */
+    background: -moz-linear-gradient(left,  #48baff 50%, #5fc3ff 50%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #48baff 50%,#5fc3ff 50%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #48baff 50%,#5fc3ff 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+  }
+  .icon_box i{
+
+  }
+  /* feature section css close */
+
+
+  /* showease css part start  */
+  .Showcase{
+      background-color: #f6f9f9;
+     
+  }
+  .Showcase h1 {
+    
+
+  }
+  .Showcase p{
+      color: #909090;
+      font-size: 16px;
+
+  }
+
+  .work{
+      position: relative;
+
+  }
+  .work img{
+      width: 100%;
+  }
+  .work:hover::before{
+      width: 100%;
+      height: 100%;
+      
+  }
+  .work::before{
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 0%;
+      height: 0%;
+      background-color: red;
+      opacity: .4;
+      transition: .4s all ease-in-out;
+  }
+ .icon_list{
+     position: absolute;
+     top: 60%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     opacity: 0;
+     transition: .4s all ease-in-out;
+
+ }
+ .icon_list ul{
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    
+
+ }
+ .icon_list ul li{
+     height: 30px;
+     width: 30px;
+     border: 1px solid #fff;
+     line-height: 30px;
+     margin-left: 10px;
+     color: #fff;
+     border-radius: 4px;
+
+ }
+ .icon_list ul li i:hover{
+    color: #000;
+
+ }
+.work:hover .icon_list{
+    opacity: 1;
+    top: 50%;
+}
+
+  /* showease fast css close  */
+
+
+
+
+/* footer from css part start */
+  footer{
+      background-image: url(../images/footer-bg.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      min-height: 90vh;
+
+  }
+  .footer_content h1{
+      margin-top: 50px;
+    
+
+    
+     
+    
+  }
+    .form{
+      text-align: end;
+      position: absolute;
+  }
+    .form-control:focus{
+        box-shadow: none;
+    }
+     
+  
+  
+  form input[type="submit"]{
+      background: transparent;
+      padding: 0;
+      border: none;
+      border: 1px solid #15a4fa;
+      padding: 5px 20px;
+      color: #fff;
+      border-radius: 5px;
+      transition: .4s all ease-in-out;
+     
+
+  }
+  form input[type="submit"]:hover{
+    border: 1px solid #15a4fa;
+    background: #15a4fa;
+    color: #fff;
+   
+  }
+
+  footer::before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background:#2d3950 ;
+      opacity: .5;
+  }
+  .footer_content{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      
+  }
+  form input[type="text"]{
+    background: transparent;
+
+  }
+  form input[type="email"]{
+    background: transparent;
+
+  }
+  .form-control {
+    background: transparent;
+  }
+
+  
+
+  form{
+      text-align: end;
+
+  }
+  /* footer from css part colose */
+
+  .footer_part{
+     background-color: #f6f9f9;
+   
+  
+     
+      
+      
+  }
+  .footer_part h1{
+      color: #999999;
+      font-size: 20px;
+    }
+    .footer_part ul{
+        list-style: none;
+        margin-right: 50px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 30px;
+       
+        
+    }
+    .footer_part ul li{
+        margin-right: 20px;
+        background-color: #15a4fa;
+        border-radius: 3px;
+        padding: 8px 15px;
+        transition: .4s;
+      
+
+    }
+    .footer_part ul li{
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+
+    }
+    .footer_part ul li:hover{
+        color:#2d90ce ;
+    }
+  
+     
+
+
+  
